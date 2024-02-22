@@ -1,5 +1,4 @@
 import requests
-from datetime import datetime
 r = requests.get('http://www.google.com/search', params={'q': 'elson de abreu'})
 
 if (r.status_code == 200):
